@@ -52,3 +52,7 @@
 
 # IDE Project files
 /.idea
+/nbproject/private/
+/nbproject
+/logs
+/admin-storage
