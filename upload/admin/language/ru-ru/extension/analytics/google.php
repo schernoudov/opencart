@@ -2,16 +2,16 @@
 $_['heading_title']    = 'Google Analytics';
 
 // Text
-$_['text_extension']   = 'Extensions';
-$_['text_success']	   = 'Success: You have modified Google Analytics!';
-$_['text_edit']        = 'Edit Google Analytics';
-$_['text_signup']      = 'Login to your <a href="http://www.google.com/analytics/" target="_blank"><u>Google Analytics</u></a> account and after creating your website profile copy and paste the analytics code into this field.';
-$_['text_default']     = 'Default';
+$_['text_extension']   = 'Расширения';
+$_['text_success']	   = 'Настройки успешно изменены!';
+$_['text_edit']        = 'Настройки модуля';
+$_['text_signup']      = 'Войдите в <a href="http://www.google.com/analytics/" target="_blank"><u>Google Analytics</u></a> аккаунт и после создания профиля сайта, скопируйте, а затем вставьте код в данное поле.';
+$_['text_default']     = 'По умолчанию';
 
 // Entry
-$_['entry_code']       = 'Google Analytics Code';
-$_['entry_status']     = 'Status';
+$_['entry_code']       = 'Код Google Analytics';
+$_['entry_status']     = 'Статус';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify Google Analytics!';
-$_['error_code']	   = 'Code required!';
+$_['error_permission'] = 'У Вас нет прав для управления данным модулем!';
+$_['error_code']	   = 'Код необходим!';

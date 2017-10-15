@@ -1,47 +1,48 @@
 <?php
 // Heading
-$_['heading_title']     = 'Gift Vouchers';
+$_['heading_title']     = 'Подарочный сертификат';
 
 // Text
-$_['text_success']      = 'Success: You have modified vouchers!';
-$_['text_list']         = 'Gift Voucher List';
-$_['text_add']          = 'Add Gift Voucher';
-$_['text_edit']         = 'Edit Gift Voucher';
-$_['text_sent']         = 'Success: Gift Voucher e-mail has been sent!';
+$_['text_success']      = 'Настройки успешно изменены!';
+$_['text_list']         = 'Подарочные сертификаты';
+$_['text_add']          = 'Добавить';
+$_['text_edit']         = 'Редактирование';
+$_['text_sent']         = 'Подарочный сертификат отправлен на e-mail!';
 
 // Column
-$_['column_name']       = 'Voucher Name';
-$_['column_code']       = 'Code';
-$_['column_from']       = 'From';
-$_['column_to']         = 'To';
-$_['column_theme']      = 'Theme';
-$_['column_amount']     = 'Amount';
-$_['column_status']     = 'Status';
-$_['column_order_id']   = 'Order ID';
-$_['column_customer']   = 'Customer';
-$_['column_date_added'] = 'Date Added';
-$_['column_action']     = 'Action';
+$_['column_name']       = 'Название подарочного сертификата';
+$_['column_code']       = 'Код';
+$_['column_from']       = 'От';
+$_['column_to']         = 'Кому';
+$_['column_theme']      = 'Тематика';
+$_['column_amount']     = 'Сумма';
+$_['column_status']     = 'Статус';
+$_['column_order_id']   = '№ Заказа';
+$_['column_customer']   = 'Клиент';
+$_['column_date_added'] = 'Дата добавления';
+$_['column_action']     = 'Действия';
 
 // Entry
-$_['entry_code']        = 'Code';
-$_['entry_from_name']   = 'From Name';
-$_['entry_from_email']  = 'From E-Mail';
-$_['entry_to_name']     = 'To Name';
-$_['entry_to_email']    = 'To E-Mail';
-$_['entry_theme']       = 'Theme';
-$_['entry_message']     = 'Message';
-$_['entry_amount']      = 'Amount';
-$_['entry_status']      = 'Status';
+$_['entry_code']        = 'Код';
+$_['entry_from_name']   = 'Имя отправителя';
+$_['entry_from_email']  = 'E-Mail отправителя';
+$_['entry_to_name']     = 'Имя получателя';
+$_['entry_to_email']    = 'E-Mail получателя';
+$_['entry_theme']       = 'Тематика';
+$_['entry_message']     = 'Сообщение';
+$_['entry_amount']      = 'Сумма';
+$_['entry_status']      = 'Статус';
 
 // Help
-$_['help_code']         = 'The code the customer enters to activate the voucher.';
+$_['help_code']         = 'Код, который клиент вводит для активации подарочного сертификата';
 
 // Error
-$_['error_permission']  = 'Warning: You do not have permission to modify vouchers!';
-$_['error_exists']      = 'Warning: Voucher code is already in use!';
-$_['error_code']        = 'Code must be between 3 and 10 characters!';
-$_['error_to_name']     = 'Recipient\'s Name must be between 1 and 64 characters!';
-$_['error_from_name']   = 'Your Name must be between 1 and 64 characters!';
-$_['error_email']       = 'E-Mail Address does not appear to be valid!';
-$_['error_amount']      = 'Amount must be greater than or equal to 1!';
-$_['error_order']       = 'Warning: This voucher cannot be deleted as it is part of an <a href="%s">order</a>!';
+$_['error_permission']  = 'У Вас нет прав для изменения настроек Подарочный сертификат!';
+$_['error_exists']      = 'Данный Подарочный сертификат уже используется!';
+$_['error_code']        = 'Код должен быть от 3 до 10 символов!';
+$_['error_to_name']     = 'Имя получателя должно быть от 1 до 64 символов!';
+$_['error_from_name']   = 'Ваше имя должно быть от 1 до 64 символов!';
+$_['error_email']       = 'E-Mail адрес введен неверно!';
+$_['error_amount']      = 'Сумма должна быть больше или равно 1!';
+$_['error_order']       = 'Данный сертификат не может быть удален, т.к является частью <a href="%s">заказа</a>!';
+

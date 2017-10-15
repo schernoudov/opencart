@@ -1,36 +1,37 @@
 <?php
 // Heading
-$_['heading_title']        = 'Mail';
+$_['heading_title']        = 'Почта';
 
 // Text
-$_['text_success']         = 'Your message has been successfully sent!';
-$_['text_sent']            = 'Your message has been successfully sent to %s - %s recipients!';
-$_['text_list']            = 'Mail List';
-$_['text_default']         = 'Default';
-$_['text_newsletter']      = 'All Newsletter Subscribers';
-$_['text_customer_all']    = 'All Customers';
-$_['text_customer_group']  = 'Customer Group';
-$_['text_customer']        = 'Customers';
-$_['text_affiliate_all']   = 'All Affiliates';
-$_['text_affiliate']       = 'Affiliates';
-$_['text_product']         = 'Products';
+$_['text_success']         = 'Сообщение успешно отправлено!';
+$_['text_sent']            = 'Сообщение успешно отправлено %s из %s получателей!';
+$_['text_list']            = 'Почта';
+$_['text_default']         = 'По умолчанию';
+$_['text_newsletter']      = 'Всем подписчикам на новости';
+$_['text_customer_all']    = 'Всем клиентам';
+$_['text_customer_group']  = 'Группа клиентов';
+$_['text_customer']        = 'Клиенты';
+$_['text_affiliate_all']   = 'Всем партнерам';
+$_['text_affiliate']       = 'Партнеры';
+$_['text_product']         = 'Товары';
 
 // Entry
-$_['entry_store']          = 'From';
-$_['entry_to']             = 'To';
-$_['entry_customer_group'] = 'Customer Group';
-$_['entry_customer']       = 'Customer';
-$_['entry_affiliate']      = 'Affiliate';
-$_['entry_product']        = 'Products';
-$_['entry_subject']        = 'Subject';
-$_['entry_message']        = 'Message';
+$_['entry_store']          = 'От';
+$_['entry_to']             = 'Кому';
+$_['entry_customer_group'] = 'Группа клиентов';
+$_['entry_customer']       = 'Клиент';
+$_['entry_affiliate']      = 'Партнер';
+$_['entry_product']        = 'Товары';
+$_['entry_subject']        = 'Тема';
+$_['entry_message']        = 'Сообщение';
 
 // Help
-$_['help_customer']        = '(Autocomplete)';
-$_['help_affiliate']       = '(Autocomplete)';
-$_['help_product']         = 'Send only to customers who have ordered products in the list. (Autocomplete)';
+$_['help_customer']        = 'Автодополнение';
+$_['help_affiliate']       = 'Автодополнение';
+$_['help_product']         = 'Отправить покупателям, которые уже заказали товары из списка. (Автодополнение)';
 
 // Error
-$_['error_permission']     = 'Warning: You do not have permission to send E-Mails!';
-$_['error_subject']        = 'E-Mail Subject required!';
-$_['error_message']        = 'E-Mail Message required!';
+$_['error_permission']     = 'У Вас нет прав для отправки сообщений!';
+$_['error_subject']        = 'Необходимо ввести тему сообщения!';
+$_['error_message']        = 'Необходимо ввести текст сообщения!';
+

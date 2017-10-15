@@ -1,29 +1,30 @@
 <?php
 // Heading
-$_['heading_title']     = 'Extension Installer';
+$_['heading_title']     = 'Установка расширений';
 
 // Text
-$_['text_progress']     = 'Install Progress';
-$_['text_upload']       = 'Upload your extensions';
-$_['text_history']      = 'Install History';
-$_['text_success']      = 'Success: The extension has been installed!';
-$_['text_install']      = 'Installing';
+$_['text_progress']     = 'Процесс установки';
+$_['text_upload']       = 'Загрузите ваше расширение';
+$_['text_history']      = 'История';
+$_['text_success']      = 'Расширение успешно установлено!';
+$_['text_install']      = 'Установка';
 
 // Column
-$_['column_filename']   = 'Filename';
-$_['column_date_added'] = 'Date Added';
-$_['column_action']     = 'Action';
+$_['column_filename']   = 'Имя файла';
+$_['column_date_added'] = 'Дата добавления';
+$_['column_action']     = 'Действие';
 
 // Entry
-$_['entry_upload']      = 'Upload File';
-$_['entry_progress']    = 'Progress';
+$_['entry_upload']      = 'Загрузить файл';
+$_['entry_progress']    = 'Процесс';
 
 // Help
-$_['help_upload']       = 'Requires a modification file with extension \'.ocmod.zip\'.';
+$_['help_upload']       = 'Необходим \'.ocmod.zip\' или \'.ocmod.xml\' файл модификатора.';
 
 // Error
-$_['error_permission']  = 'Warning: You do not have permission to modify extensions!';
-$_['error_install']     = 'Extension installation taking place please wait a few seconds before trying to install!';
-$_['error_upload']      = 'File could not be uploaded!';
-$_['error_filetype']    = 'Invalid file type!';
-$_['error_file']        = 'File could not be found!';
+$_['error_permission']  = 'Внимание: У Вас нет прав для управления модулями!';
+$_['error_install']     = 'Выполняется установка расширения, пожалуйста, подождите несколько секунд, прежде чем попытаться установить заново!';
+$_['error_upload']      = 'Файл не удалось загрузить!';
+$_['error_filetype']    = 'Неправильный тип файла!';
+$_['error_file']        = 'Файл не найден!';
+

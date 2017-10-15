@@ -1,21 +1,22 @@
 <?php
 // Heading
-$_['heading_title']    = 'Citylink';
+$_['heading_title']    = 'Доставка по городу';
 
 // Text
-$_['text_extension']   = 'Extensions';
-$_['text_success']     = 'Success: You have modified Citylink shipping!';
-$_['text_edit']        = 'Edit Citylink Shipping';
+$_['text_extension']   = 'Расширения';
+$_['text_success']     = 'Настройки успешно изменены!';
+$_['text_edit']        = 'Редактирование';
 
 // Entry
-$_['entry_rate']       = 'Citylink Rates';
-$_['entry_tax_class']  = 'Tax Class';
-$_['entry_geo_zone']   = 'Geo Zone';
-$_['entry_status']     = 'Status';
-$_['entry_sort_order'] = 'Sort Order';
+$_['entry_rate']       = 'Нормы доставки';
+$_['entry_tax_class']  = 'Класс налога';
+$_['entry_geo_zone']   = 'Географическая зона';
+$_['entry_status']     = 'Статус';
+$_['entry_sort_order'] = 'Порядок сортировки';
 
 // Help
-$_['help_rate']        = 'Enter values upto 5,2 decimal places. (12345.67) Example: .1:1,.25:1.27 - Weights less than or equal to 0.1Kg would cost &pound;1.00, Weights less than or equal to 0.25g but more than 0.1Kg will cost 1.27. Do not enter KG or symbols.';
+$_['help_rate']        = 'Введите ценность до 5.2 десятичных разрядов. (12345.67) Пример: .1:1,.25:1.27 - Вес меньше или равный 0.1 кг будет стоить 1.00 (в единицах валюты по умолчанию), вес от 0.1 до 0.25 кг будет стоить 1.27. Не вписывайте кг или другие символы.';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify Citylink shipping!';
+$_['error_permission'] = 'У Вас нет прав для управления данным модулем!';
+

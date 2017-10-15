@@ -1,55 +1,56 @@
 <?php
 // Heading
-$_['heading_title']        = 'Custom Fields';
+$_['heading_title']        = 'Настраиваемые поля';
 
 // Text
-$_['text_success']         = 'Success: You have modified custom fields!';
-$_['text_list']            = 'Custom Field List';
-$_['text_add']             = 'Add Custom Field';
-$_['text_edit']            = 'Edit Custom Field';
-$_['text_choose']          = 'Choose';
-$_['text_select']          = 'Select';
-$_['text_radio']           = 'Radio';
-$_['text_checkbox']        = 'Checkbox';
-$_['text_input']           = 'Input';
-$_['text_text']            = 'Text';
-$_['text_textarea']        = 'Textarea';
-$_['text_file']            = 'File';
-$_['text_date']            = 'Date';
-$_['text_datetime']        = 'Date &amp; Time';
-$_['text_time']            = 'Time';
-$_['text_account']         = 'Account';
-$_['text_address']         = 'Address';
-$_['text_affiliate']       = 'Affiliate';
-$_['text_regex']           = 'Regex';
-$_['text_custom_field']    = 'Custom Field';
-$_['text_value']           = 'Custom Field Values';
+$_['text_success']         = 'Настройки успешно изменены!';
+$_['text_list']            = 'Настраиваемые поля';
+$_['text_add']             = 'Добавить';
+$_['text_edit']            = 'Редактирование';
+$_['text_choose']          = 'Выбор';
+$_['text_select']          = 'Список';
+$_['text_radio']           = 'Переключатель';
+$_['text_checkbox']        = 'Флажок';
+$_['text_input']           = 'Ввод текста';
+$_['text_text']            = 'Текст';
+$_['text_textarea']        = 'Текстовая область';
+$_['text_file']            = 'Файл';
+$_['text_date']            = 'Дата';
+$_['text_datetime']        = 'Дата &amp; Время';
+$_['text_time']            = 'Время';
+$_['text_account']         = 'Аккаунт';
+$_['text_address']         = 'Адрес';
+$_['text_affiliate']       = 'Партнер';
+$_['text_regex']           = 'Регулярное выражение';
+$_['text_custom_field']    = 'Настраиваемое поле';
+$_['text_value']           = 'Значение настраиваемого поля';
 
 // Column
-$_['column_name']          = 'Custom Field Name';
-$_['column_location']      = 'Location';
-$_['column_type']          = 'Type';
-$_['column_sort_order']    = 'Sort Order';
-$_['column_action']        = 'Action';
+$_['column_name']          = 'Название поля';
+$_['column_location']      = 'Расположение';
+$_['column_type']          = 'Тип';
+$_['column_sort_order']    = 'Порядок сортировки';
+$_['column_action']        = 'Действие';
 
 // Entry
-$_['entry_name']           = 'Custom Field Name';
-$_['entry_location']       = 'Location';
-$_['entry_type']           = 'Type';
-$_['entry_value']          = 'Value';
-$_['entry_validation']     = 'Validation';
-$_['entry_custom_value']   = 'Custom Field Value Name';
-$_['entry_customer_group'] = 'Customer Group';
-$_['entry_required']       = 'Required';
-$_['entry_status']         = 'Status';
-$_['entry_sort_order']     = 'Sort Order';
+$_['entry_name']           = 'Название поля';
+$_['entry_location']       = 'Расположение';
+$_['entry_type']           = 'Тип';
+$_['entry_value']          = 'Значение';
+$_['entry_validation']     = 'Проверка';
+$_['entry_custom_value']   = 'Значение поля';
+$_['entry_customer_group'] = 'Группа клиентов';
+$_['entry_required']       = 'Обязательно';
+$_['entry_status']         = 'Статус';
+$_['entry_sort_order']     = 'Порядок сортировки';
 
 // Help
-$_['help_regex']           = 'Use regex. E.g: /[a-zA-Z0-9_-]/';
-$_['help_sort_order']      = 'Use minus to count backwards from the last field in the set.';
+$_['help_regex']           = 'Используй regex. Пример: /[a-zA-Z0-9_-]/';
+$_['help_sort_order']      = 'Использовать минус, чтобы задать порядок сортировки выше первого.';
 
 // Error
-$_['error_permission']     = 'Warning: You do not have permission to modify custom fields!';
-$_['error_name']           = 'Custom Field Name must be between 1 and 128 characters!';
-$_['error_type']           = 'Warning: Custom Field Values required!';
-$_['error_custom_value']   = 'Custom Value Name must be between 1 and 128 characters!';
+$_['error_permission']     = 'У Вас нет прав для изменения модуля Настраиваемые поля!';
+$_['error_name']           = 'Название поля должно содержать от 1 до 128 символов!';
+$_['error_type']           = 'Внимание! Необходимо ввести значение поля!';
+$_['error_custom_value']   = 'Значение поля должно содержать от 1 до 128 символов!';
+

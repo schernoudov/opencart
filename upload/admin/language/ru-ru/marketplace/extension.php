@@ -1,9 +1,10 @@
 <?php
 // Heading
-$_['heading_title'] = 'Extensions';
+$_['heading_title'] = 'Модули / Расширения';
 
 // Text
-$_['text_success']  = 'Success: You have modified extensions!';
-$_['text_list']     = 'Extension List';
-$_['text_type']     = 'Choose the extension type';
-$_['text_filter']   = 'Filter';
+$_['text_success']  = 'Настройки успешно изменены!';
+$_['text_list']     = 'Список расширений';
+$_['text_type']     = 'Выберите тип расширения';
+$_['text_filter']   = 'Фильтр';
+

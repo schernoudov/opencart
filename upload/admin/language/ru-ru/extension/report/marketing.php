@@ -1,27 +1,28 @@
 <?php
 // Heading
-$_['heading_title']    = 'Marketing Report';
+$_['heading_title']    = 'Маркетинговый отчет';
 
 // Text
-$_['text_extension']   = 'Extensions';
-$_['text_edit']        = 'Edit Marketing Report';
-$_['text_success']     = 'Success: You have modified marketing report!';
-$_['text_filter']      = 'Filter';
-$_['text_all_status']  = 'All Statuses';
+$_['text_extension']   = 'Расширения';
+$_['text_edit']        = 'Редактирование';
+$_['text_success']     = 'Настройки успешно изменены!';
+$_['text_filter']      = 'Фильтр';
+$_['text_all_status']  = 'Все статусы';
 
 // Column
-$_['column_campaign']  = 'Campaign Name';
-$_['column_code']      = 'Code';
-$_['column_clicks']    = 'Clicks';
-$_['column_orders']    = 'No. Orders';
-$_['column_total']     = 'Total';
+$_['column_campaign']  = 'Название кампании';
+$_['column_code']      = 'Код';
+$_['column_clicks']    = 'Кликов';
+$_['column_orders']    = 'Заказов';
+$_['column_total']     = 'Итого';
 
 // Entry
-$_['entry_date_start'] = 'Date Start';
-$_['entry_date_end']   = 'Date End';
-$_['entry_status']     = 'Order Status';
-$_['entry_status']     = 'Status';
-$_['entry_sort_order'] = 'Sort Order';
+$_['entry_date_start'] = 'Дата начала';
+$_['entry_date_end']   = 'Дата окончания';
+$_['entry_customer']   = 'Клиент';
+$_['entry_status']     = 'Статус';
+$_['entry_sort_order'] = 'Порядок сортировки';
 
 // Error
-$_['error_permission']  = 'Warning: You do not have permission to modify marketing report!';
+$_['error_permission']  = 'У Вас нет прав для управления модулем!';
+

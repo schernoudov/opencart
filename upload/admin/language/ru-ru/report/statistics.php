@@ -1,24 +1,25 @@
 <?php
 // Heading
-$_['heading_title']         = 'Statistics';
+$_['heading_title']         = 'Статистика';
 
 // Text
-$_['text_success']          = 'Success: You have modified statistics!';
-$_['text_list']             = 'Statistics List';
-$_['text_order_sale']       = 'Order Sales';
-$_['text_order_processing'] = 'Orders Processing';
-$_['text_order_complete']   = 'Orders Complete';
-$_['text_order_other']      = 'Orders Other';
-$_['text_returns']          = 'Returns';
-$_['text_customer']         = 'Customers Waiting for Approval';
-$_['text_affiliate']        = 'Affiliates Waiting for Approval';
-$_['text_product']          = 'Out of stock products';
-$_['text_review']           = 'Pending Reviews';
+$_['text_success']          = 'Настройки успешно изменены!';
+$_['text_list']             = 'Список';
+$_['text_order_sale']       = 'Заказов';
+$_['text_order_processing'] = 'Заказов в процессе';
+$_['text_order_complete']   = 'Завершенных заказов';
+$_['text_order_other']      = 'Остальные заказы';
+$_['text_returns']          = 'Возвратов';
+$_['text_customer']         = 'Клиентов ожидающих одобрения';
+$_['text_affiliate']        = 'Партнеров ожидающих одобрения';
+$_['text_product']          = 'Товаров которых нет в наличии';
+$_['text_review']           = 'Отзывов ожидающих модерации';
 
 // Column
-$_['column_name']           = 'Statistics Name';
-$_['column_value']	        = 'Value';
-$_['column_action']         = 'Action';
+$_['column_name']           = 'Название';
+$_['column_value']	        = 'Значение';
+$_['column_action']         = 'Действие';
 
 // Error
-$_['error_permission']      = 'Warning: You do not have permission to modify statistics!';
+$_['error_permission']      = 'У Вас нет прав для управления статистикой!';
+

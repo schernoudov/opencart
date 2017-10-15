@@ -1,33 +1,34 @@
 <?php
 // Heading
-$_['heading_title']     = 'Manufacturers';
+$_['heading_title']     = 'Производители';
 
 // Text
-$_['text_success']      = 'Success: You have modified manufacturers!';
-$_['text_list']         = 'Manufacturer List';
-$_['text_add']          = 'Add Manufacturer';
-$_['text_edit']         = 'Edit Manufacturer';
-$_['text_default']      = 'Default';
-$_['text_percent']      = 'Percentage';
-$_['text_amount']       = 'Fixed Amount';
-$_['text_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['text_success']      = 'Настройки успешно изменены!';
+$_['text_list']         = 'Список производителей';
+$_['text_add']          = 'Добавить';
+$_['text_edit']         = 'Редактирование';
+$_['text_default']      = 'Основной магазин';
+$_['text_percent']      = 'Процент';
+$_['text_amount']       = 'Фиксированная сумма';
+$_['text_keyword']      = 'Должно быть уникальным на всю систему и без пробелов.';
 
 // Column
-$_['column_name']       = 'Manufacturer Name';
-$_['column_sort_order'] = 'Sort Order';
-$_['column_action']     = 'Action';
+$_['column_name']       = 'Производитель';
+$_['column_sort_order'] = 'Порядок сортировки';
+$_['column_action']     = 'Действие';
 
 // Entry
-$_['entry_name']        = 'Manufacturer Name';
-$_['entry_store']       = 'Stores';
-$_['entry_keyword']     = 'Keyword';
-$_['entry_image']       = 'Image';
-$_['entry_sort_order']  = 'Sort Order';
-$_['entry_type']        = 'Type';
+$_['entry_name']        = 'Производитель';
+$_['entry_store']       = 'Магазины';
+$_['entry_keyword']     = 'SEO URL';
+$_['entry_image']       = 'Изображение';
+$_['entry_sort_order']  = 'Порядок сортировки';
+$_['entry_type']        = 'Тип';
 
 // Error
-$_['error_permission']  = 'Warning: You do not have permission to modify manufacturers!';
-$_['error_name']        = 'Manufacturer Name must be between 1 and 64 characters!';
-$_['error_keyword']     = 'SEO URL already in use!';
-$_['error_unique']      = 'SEO URL must be unique!';
-$_['error_product']     = 'Warning: This manufacturer cannot be deleted as it is currently assigned to %s products!';
+$_['error_permission']  = 'У Вас нет прав для изменения производителей!';
+$_['error_name']        = 'Название производителя должно быть от 1 до 64 символов!';
+$_['error_keyword']     = 'SEO URL занят!';
+$_['error_unique']      = 'SEO URL должен быть уникальным!';
+$_['error_product']     = 'Внимание: Данного производителя нельзя удалить так как назначен %s товарам!';
+

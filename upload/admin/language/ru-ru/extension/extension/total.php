@@ -1,16 +1,17 @@
 <?php
 // Heading
-$_['heading_title']     = 'Order Totals';
+$_['heading_title']     = 'Учитывать в заказе';
 
 // Text
-$_['text_success']      = 'Success: You have modified totals!';
-$_['text_list']         = 'Order Total List';
+$_['text_success']      = 'Настройки успешно обновлены!';
+$_['text_list']         = 'Учитывать в заказе';
 
 // Column
-$_['column_name']       = 'Order Totals';
-$_['column_status']     = 'Status';
-$_['column_sort_order'] = 'Sort Order';
-$_['column_action']     = 'Action';
+$_['column_name']       = 'Учитывать в заказе';
+$_['column_status']     = 'Статус';
+$_['column_sort_order'] = 'Порядок сортировки';
+$_['column_action']     = 'Действие';
 
 // Error
-$_['error_permission']  = 'Warning: You do not have permission to modify totals!';
+$_['error_permission']  = 'У Вас нет прав для редактирования расширения Учитывать в заказе!';
+

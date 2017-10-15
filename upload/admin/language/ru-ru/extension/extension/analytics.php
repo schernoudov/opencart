@@ -1,15 +1,16 @@
 <?php
 // Heading
-$_['heading_title']    = 'Analytics';
+$_['heading_title']    = 'Аналитика';
 
 // Text
-$_['text_success']     = 'Success: You have modified analytics!';
-$_['text_list']        = 'Analytics List';
+$_['text_success']     = 'Настройки успешно изменены!';
+$_['text_list']        = 'Список модулей';
 
 // Column
-$_['column_name']      = 'Analytics Name';
-$_['column_status']    = 'Status';
-$_['column_action']    = 'Action';
+$_['column_name']      = 'Название';
+$_['column_status']    = 'Статус';
+$_['column_action']    = 'Действие';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify analytics!';
+$_['error_permission'] = 'У Вас нет прав для редактирования расширения Аналитика!';
+

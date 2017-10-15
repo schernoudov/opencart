@@ -1,19 +1,20 @@
 <?php
 // Heading
-$_['heading_title']  = 'Administration';
+$_['heading_title']  = 'Авторизация';
 
 // Text
-$_['text_heading']   = 'Administration';
-$_['text_login']     = 'Please enter your login details.';
-$_['text_forgotten'] = 'Forgotten Password';
+$_['text_heading']   = 'Авторизация';
+$_['text_login']     = 'Введите логин и пароль';
+$_['text_forgotten'] = 'Забыли пароль?';
 
 // Entry
-$_['entry_username'] = 'Username';
-$_['entry_password'] = 'Password';
+$_['entry_username'] = 'Логин';
+$_['entry_password'] = 'Пароль';
 
 // Button
-$_['button_login']   = 'Login';
+$_['button_login']   = 'Войти';
 
 // Error
-$_['error_login']    = 'No match for Username and/or Password.';
-$_['error_token']    = 'Invalid token session. Please login again.';
+$_['error_login']    = 'Такой логин и/или пароль не существует!';
+$_['error_token']    = 'Неправильная токен-сессия. Авторизуйтесь снова.';
+

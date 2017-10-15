@@ -1,29 +1,30 @@
 <?php
 // Heading
-$_['heading_title']         = 'Customer Reward Points Report';
+$_['heading_title']         = 'Баллы клиентов';
 
 // Text
-$_['text_extension']        = 'Extensions';
-$_['text_edit']             = 'Edit Customer Reward Points Report';
-$_['text_success']          = 'Success: You have modified customer reward points report!';
-$_['text_filter']           = 'Filter';
+$_['text_extension']        = 'Расширения';
+$_['text_edit']             = 'Редактирование';
+$_['text_success']          = 'Настройки успешно изменены!';
+$_['text_filter']           = 'Фильтр';
 
 // Column
-$_['column_customer']       = 'Customer Name';
+$_['column_customer']       = 'Клиент';
 $_['column_email']          = 'E-Mail';
-$_['column_customer_group'] = 'Customer Group';
-$_['column_status']         = 'Status';
-$_['column_points']         = 'Reward Points';
-$_['column_orders']         = 'No. Orders';
-$_['column_total']          = 'Total';
-$_['column_action']         = 'Action';
+$_['column_customer_group'] = 'Группа';
+$_['column_status']         = 'Статус';
+$_['column_points']         = 'Баллы';
+$_['column_orders']         = 'Кол-во заказов';
+$_['column_total']          = 'Итого';
+$_['column_action']         = 'Действие';
 
 // Entry
-$_['entry_date_start']      = 'Date Start';
-$_['entry_date_end']        = 'Date End';
-$_['entry_customer']        = 'Customer';
-$_['entry_status']          = 'Status';
-$_['entry_sort_order']      = 'Sort Order';
+$_['entry_date_start']      = 'Дата начала';
+$_['entry_date_end']        = 'Дата окончания';
+$_['entry_customer']        = 'Клиент';
+$_['entry_status']          = 'Статус';
+$_['entry_sort_order']      = 'Порядок сортировки';
 
 // Error
-$_['error_permission']  = 'Warning: You do not have permission to modify customer reward points report!';
+$_['error_permission']  = 'У Вас нет прав для управления модулем!';
+

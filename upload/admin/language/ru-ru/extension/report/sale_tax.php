@@ -1,32 +1,32 @@
 <?php
 // Heading
-$_['heading_title']     = 'Tax Report';
+$_['heading_title']     = 'Налоги';
 
 // Text
-$_['text_extension']    = 'Extensions';
-$_['text_edit']         = 'Edit Tax Report';
-$_['text_success']      = 'Success: You have modified tax report!';
-$_['text_filter']       = 'Filter';
-$_['text_year']         = 'Years';
-$_['text_month']        = 'Months';
-$_['text_week']         = 'Weeks';
-$_['text_day']          = 'Days';
-$_['text_all_status']   = 'All Statuses';
+$_['text_extension']    = 'Расширения';
+$_['text_edit']         = 'Редактирование';
+$_['text_success']      = 'Настройки успешно изменены!';
+$_['text_filter']       = 'Фильтр';
+$_['text_year']         = 'Год';
+$_['text_month']        = 'Месяц';
+$_['text_week']         = 'Неделя';
+$_['text_day']          = 'День';
+$_['text_all_status']   = 'Все статусы';
 
 // Column
-$_['column_date_start'] = 'Date Start';
-$_['column_date_end']   = 'Date End';
-$_['column_title']      = 'Tax Title';
-$_['column_orders']     = 'No. Orders';
-$_['column_total']      = 'Total';
+$_['column_date_start'] = 'Дата начала';
+$_['column_date_end']   = 'Дата окончания';
+$_['column_title']      = 'Налог';
+$_['column_orders']     = 'Заказов';
+$_['column_total']      = 'Итого';
 
 // Entry
-$_['entry_date_start']  = 'Date Start';
-$_['entry_date_end']    = 'Date End';
-$_['entry_group']       = 'Group By';
-$_['entry_status']      = 'Order Status';
-$_['entry_status']      = 'Status';
-$_['entry_sort_order']  = 'Sort Order';
+$_['entry_date_start']  = 'Дата начала';
+$_['entry_date_end']    = 'Дата окончания';
+$_['entry_group']       = 'Период';
+$_['entry_status']      = 'Статус заказа';
+$_['entry_sort_order']  = 'Порядок сортировки';
 
 // Error
-$_['error_permission']  = 'Warning: You do not have permission to modify tax report!';
+$_['error_permission']  = 'У Вас нет прав для управления модулем!';
+

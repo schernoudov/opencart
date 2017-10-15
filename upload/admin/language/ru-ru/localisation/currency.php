@@ -1,38 +1,39 @@
 <?php
 // Heading
-$_['heading_title']        = 'Currencies';
+$_['heading_title']        = 'Валюты';
 
 // Text
-$_['text_success']         = 'Success: You have modified currencies!';
-$_['text_list']            = 'Currency List';
-$_['text_add']             = 'Add Currency';
-$_['text_edit']            = 'Edit Currency';
-$_['text_iso']             = 'You can find a full list of ISO currency codes and settings <a href="http://www.xe.com/iso4217.php" target="_blank" class="alert-link">here</a>.';
+$_['text_success']         = 'Курсы валют успешно обновлены!';
+$_['text_list']            = 'Список валют';
+$_['text_add']             = 'Добавить';
+$_['text_edit']            = 'Редактирование';
+$_['text_iso']             = 'Вы можете найти полный список кодов валют ISO и настройки <a href="http://www.xe.com/iso4217.php" target="_blank">на сайте</a>.';
 
 // Column
-$_['column_title']         = 'Currency Title';
-$_['column_code']          = 'Code';
-$_['column_value']         = 'Value';
-$_['column_date_modified'] = 'Last Updated';
-$_['column_action']        = 'Action';
+$_['column_title']         = 'Название валюты';
+$_['column_code']          = 'Код';
+$_['column_value']         = 'Значение';
+$_['column_date_modified'] = 'Дата последнего обновления';
+$_['column_action']        = 'Действие';
 
 // Entry
-$_['entry_title']          = 'Currency Title';
-$_['entry_code']           = 'Code';
-$_['entry_value']          = 'Value';
-$_['entry_symbol_left']    = 'Symbol Left';
-$_['entry_symbol_right']   = 'Symbol Right';
-$_['entry_decimal_place']  = 'Decimal Places';
-$_['entry_status']         = 'Status';
+$_['entry_title']          = 'Название валюты';
+$_['entry_code']           = 'Код';
+$_['entry_value']          = 'Значение';
+$_['entry_symbol_left']    = 'Символ слева';
+$_['entry_symbol_right']   = 'Символ справа';
+$_['entry_decimal_place']  = 'Количество знаков после запятой';
+$_['entry_status']         = 'Статус';
 
 // Help
-$_['help_code']            = 'Do not change if this is your default currency.';
-$_['help_value']           = 'Set to 1.00000 if this is your default currency.';
+$_['help_code']            = 'Не изменяется, если валюта установлена по умолчанию.';
+$_['help_value']           = 'Установите на 1.00000 если это валюта по умолчанию.';
 
 // Error
-$_['error_permission']     = 'Warning: You do not have permission to modify currencies!';
-$_['error_title']          = 'Currency Title must be between 3 and 32 characters!';
-$_['error_code']           = 'Currency Code must contain 3 characters!';
-$_['error_default']        = 'Warning: This currency cannot be deleted as it is currently assigned as the default store currency!';
-$_['error_store']          = 'Warning: This currency cannot be deleted as it is currently assigned to %s stores!';
-$_['error_order']          = 'Warning: This currency cannot be deleted as it is currently assigned to %s orders!';
+$_['error_permission']     = 'У Вас нет прав для изменения списка валют';
+$_['error_title']          = 'Название валюты должно быть от 3 до 32 символов!';
+$_['error_code']           = 'Код валюты должен состоять из 3 символов!';
+$_['error_default']        = 'Валюту нельзя удалить, поскольку она назначена по умолчанию!';
+$_['error_store']          = 'Название валюты не может быть удалена, так как назначена %s магазинам!';
+$_['error_order']          = 'Название валюты не может быть удалена, так как назначена %s заказам!';
+

@@ -1,15 +1,16 @@
 <?php
 // Heading
-$_['heading_title']    = 'Marketing';
+$_['heading_title']    = 'Маркетинг';
 
 // Text
-$_['text_success']     = 'Success: You have modified marketing!';
-$_['text_list']        = 'Analytics List';
+$_['text_success']     = 'Настройки успешно изменены!';
+$_['text_list']        = 'Лист аналитики';
 
 // Column
-$_['column_name']      = 'Marketing Name';
-$_['column_status']    = 'Status';
-$_['column_action']    = 'Action';
+$_['column_name']      = 'Имя';
+$_['column_status']    = 'Статус';
+$_['column_action']    = 'Действие';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify marketing!';
+$_['error_permission'] = 'У Вас нет прав для редактирования расширения Маркетинг!';
+

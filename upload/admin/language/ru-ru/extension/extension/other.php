@@ -1,15 +1,16 @@
 <?php
 // Heading
-$_['heading_title']     = 'Other';
+$_['heading_title']     = 'Без категории';
 
 // Text
-$_['text_success']      = 'Success: You have modified other extension!';
-$_['text_list']         = 'Other List';
+$_['text_success']      = 'Настройки успешно обновлены!';
+$_['text_list']         = 'Список';
 
 // Column
-$_['column_name']       = 'Other';
-$_['column_status']     = 'Status';
-$_['column_action']     = 'Action';
+$_['column_name']       = 'Имя';
+$_['column_status']     = 'Статус';
+$_['column_action']     = 'Действие';
 
 // Error
-$_['error_permission']  = 'Warning: You do not have permission to modify other extension!';
+$_['error_permission']  = 'У Вас нет прав для редактирования расширения Без категории!';
+

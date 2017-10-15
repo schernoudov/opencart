@@ -1,27 +1,21 @@
 <?php
 // Heading
-$_['heading_title']     = 'Backup &amp; Restore';
+$_['heading_title']    = 'Бэкап / Восстановление';
 
 // Text
-$_['text_success']      = 'Success: You have successfully imported your database!';
-$_['text_backup']       = 'Backup Options';
-$_['text_progress']     = 'Progress';
-$_['text_import']       = 'For large backup files its better to upload the sql file via ftp to the <strong>system/storage/backup/</strong> directory.';
-
-// Column
-$_['column_filename']   = 'Filename';
-$_['column_size']       = 'Size';
-$_['column_date_added'] = 'Date Added';
-$_['column_action']     = 'Action';
+$_['text_success']     = 'Данные успешно импортированы в базу данных';
 
 // Entry
-$_['entry_progress']    = 'Progress';
-$_['entry_export']      = 'Export';
+$_['entry_import']     = 'Файл импорта .sql';
+$_['entry_progress']   = 'Процесс';
+$_['entry_export']     = 'Таблицы для экспорта данных в файл .sql';
+
+// Tab
+$_['tab_backup']       = 'Бэкап';
+$_['tab_restore']      = 'Восстановление';
 
 // Error
-$_['error_permission']  = 'Warning: You do not have permission to modify Backup &amp; Restore!';
-$_['error_export']      = 'Warning: You must select at least one table to export!';
-$_['error_table']       = 'Table %s is not in the allowed list!';
-$_['error_file']        = 'File could not be found!';
-$_['error_directory']  =  'Directory could not be found!';
+$_['error_permission'] = 'У Вас нет прав для управления данным модулем!';
+$_['error_export']     = 'Внимание: Вы должны выбрать хотя бы одну таблицу для экспорта!';
+$_['error_file']       = 'Файл не найден!';
 

@@ -1,18 +1,19 @@
 <?php
 // Heading
-$_['heading_title']    = 'Per Item';
+$_['heading_title']    = 'Доставка с оплатой за единицу';
 
 // Text
-$_['text_extension']   = 'Extensions';
-$_['text_success']     = 'Success: You have modified shipping per item rates!';
-$_['text_edit']        = 'Edit Per Item Shipping';
+$_['text_extension']   = 'Расширения';
+$_['text_success']     = 'Настройки успешно изменены!';
+$_['text_edit']        = 'Редактирование';
 
 // Entry
-$_['entry_cost']       = 'Cost';
-$_['entry_tax_class']  = 'Tax Class';
-$_['entry_geo_zone']   = 'Geo Zone';
-$_['entry_status']     = 'Status';
-$_['entry_sort_order'] = 'Sort Order';
+$_['entry_cost']       = 'Стоимость';
+$_['entry_tax_class']  = 'Класс налога';
+$_['entry_geo_zone']   = 'Географическая зона';
+$_['entry_status']     = 'Статус';
+$_['entry_sort_order'] = 'Порядок сортировки';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify shipping per item rates!';
+$_['error_permission'] = 'У Вас нет прав для управления данным модулем!';
+

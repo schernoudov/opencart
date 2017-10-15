@@ -1,23 +1,24 @@
 <?php
 // Heading
-$_['heading_title']    = 'User Groups';
+$_['heading_title']    = 'Группы пользователей';
 
 // Text
-$_['text_success']     = 'Success: You have modified user groups!';
-$_['text_list']        = 'User Group';
-$_['text_add']         = 'Add User Group';
-$_['text_edit']        = 'Edit User Group';
+$_['text_success']     = 'Настройки успешно изменены!';
+$_['text_list']        = 'Список групп пользователей';
+$_['text_add']         = 'Добавить';
+$_['text_edit']        = 'Редактирование';
 
 // Column
-$_['column_name']      = 'User Group Name';
-$_['column_action']    = 'Action';
+$_['column_name']      = 'Группы пользователей';
+$_['column_action']    = 'Действие';
 
 // Entry
-$_['entry_name']       = 'User Group Name';
-$_['entry_access']     = 'Access Permission';
-$_['entry_modify']     = 'Modify Permission';
+$_['entry_name']       = 'Группа пользователей';
+$_['entry_access']     = 'Разрешен просмотр';
+$_['entry_modify']     = 'Разрешено внесение изменений';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify user groups!';
-$_['error_name']       = 'User Group Name must be between 3 and 64 characters!';
-$_['error_user']       = 'Warning: This user group cannot be deleted as it is currently assigned to %s users!';
+$_['error_permission'] = 'У Вас нет прав для управления данным модулем!';
+$_['error_name']       = 'Название группы пользователей должно быть от 3 до 64 символов!';
+$_['error_user']       = 'Данная группа пользователей не может быть удалена т.к содержит %s пользователей!';
+

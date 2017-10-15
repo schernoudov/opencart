@@ -1,36 +1,37 @@
 <?php
 // Heading
-$_['heading_title']           = 'Countries';
+$_['heading_title']           = 'Страны';
 
 // Text
-$_['text_success']            = 'Success: You have modified countries!';
-$_['text_list']               = 'Country List';
-$_['text_add']                = 'Add Country';
-$_['text_edit']               = 'Edit Country';
+$_['text_success']            = 'Настройки успешно изменены!';
+$_['text_list']               = 'Список стран';
+$_['text_add']                = 'Добавить';
+$_['text_edit']               = 'Редактирование';
 
 // Column
-$_['column_name']             = 'Country Name';
-$_['column_iso_code_2']       = 'ISO Code (2)';
-$_['column_iso_code_3']       = 'ISO Code (3)';
-$_['column_action']           = 'Action';
+$_['column_name']             = 'Название страны';
+$_['column_iso_code_2']       = 'Код ISO (2)';
+$_['column_iso_code_3']       = 'Код ISO (3)';
+$_['column_action']           = 'Действие';
 
 // Entry
-$_['entry_name']              = 'Country Name';
-$_['entry_iso_code_2']        = 'ISO Code (2)';
-$_['entry_iso_code_3']        = 'ISO Code (3)';
-$_['entry_address_format']    = 'Address Format';
-$_['entry_postcode_required'] = 'Postcode Required';
-$_['entry_status']            = 'Status';
+$_['entry_name']              = 'Название страны';
+$_['entry_iso_code_2']        = 'Код ISO (2)';
+$_['entry_iso_code_3']        = 'Код ISO (3)';
+$_['entry_address_format']    = 'Формат адреса';
+$_['entry_postcode_required'] = 'Индекс обязателен';
+$_['entry_status']            = 'Статус';
 
 // Help
-$_['help_address_format']     = 'First Name = {firstname}<br />Last Name = {lastname}<br />Company = {company}<br />Address 1 = {address_1}<br />Address 2 = {address_2}<br />City = {city}<br />Postcode = {postcode}<br />Zone = {zone}<br />Zone Code = {zone_code}<br />Country = {country}';
+$_['help_address_format']     = 'Имя = {firstname}<br />Фамилия = {lastname}<br />Компания = {company}<br />Адрес 1 = {address_1}<br />Адрес 2 = {address_2}<br />Город = {city}<br />Индекс = {postcode}<br />Регион = {zone}<br />Код зоны = {zone_code}<br />Страна = {country}';
 
 // Error
-$_['error_permission']        = 'Warning: You do not have permission to modify countries!';
-$_['error_name']              = 'Country Name must be between 1 and 128 characters!';
-$_['error_default']           = 'Warning: This country cannot be deleted as it is currently assigned as the default store country!';
-$_['error_store']             = 'Warning: This country cannot be deleted as it is currently assigned to %s stores!';
-$_['error_address']           = 'Warning: This country cannot be deleted as it is currently assigned to %s address book entries!';
-$_['error_affiliate']         = 'Warning: This country cannot be deleted as it is currently assigned to %s affiliates!';
-$_['error_zone']              = 'Warning: This country cannot be deleted as it is currently assigned to %s zones!';
-$_['error_zone_to_geo_zone']  = 'Warning: This country cannot be deleted as it is currently assigned to %s zones to geo zones!';
+$_['error_permission']        = 'У Вас нет прав для изменения списка стран';
+$_['error_name']              = 'Название страны должно быть от 1 до 128 символов!';
+$_['error_default']           = 'Эта страна не может быть удалена, так как назначена страной по умолчанию для магазина!';
+$_['error_store']             = 'Эта страна не может быть удалена, так как назначена %s магазинам!';
+$_['error_address']           = 'Эта страна не может быть удалена, так как назначена %s записям в адресной книге!';
+$_['error_affiliate']         = 'Эта страна не может быть удалена, так как назначена %s партнерам!';
+$_['error_zone']              = 'Эта страна не может быть удалена, так как назначена %s регионам!';
+$_['error_zone_to_geo_zone']  = 'Эта страна не может быть удалена, так как назначена %s географическим зонам!';
+

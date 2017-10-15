@@ -1,23 +1,24 @@
 <?php
 // Heading
-$_['heading_title']      = 'Bank Transfer';
+$_['heading_title']      = 'Банковский перевод';
 
 // Text
-$_['text_extension']     = 'Extensions';
-$_['text_success']       = 'Success: You have modified bank transfer details!';
-$_['text_edit']          = 'Edit Bank Transfer';
+$_['text_extension']     = 'Расширения';
+$_['text_success']       = 'Настройки успешно изменены!';
+$_['text_edit']          = 'Редактирование';
 
 // Entry
-$_['entry_bank']         = 'Bank Transfer Instructions';
-$_['entry_total']        = 'Total';
-$_['entry_order_status'] = 'Order Status';
-$_['entry_geo_zone']     = 'Geo Zone';
-$_['entry_status']       = 'Status';
-$_['entry_sort_order']   = 'Sort Order';
+$_['entry_bank']         = 'Инструкция по переводу средств';
+$_['entry_total']        = 'Нижняя граница';
+$_['entry_order_status'] = 'Статус заказа после оплаты';
+$_['entry_geo_zone']     = 'Географическая зона';
+$_['entry_status']       = 'Статус';
+$_['entry_sort_order']   = 'Порядок сортировки';
 
 // Help
-$_['help_total']         = 'The checkout total the order must reach before this payment method becomes active.'; 
+$_['help_total']         = 'Минимальная сумма заказа. Ниже данной суммы, способ оплаты будет недоступен.'; 
 
 // Error 
-$_['error_permission']   = 'Warning: You do not have permission to modify payment bank transfer!';
-$_['error_bank']         = 'Bank Transfer Instructions Required!';
+$_['error_permission']   = 'У Вас нет прав для управления данным модулем!';
+$_['error_bank']         = 'Необходимо заполнить инструкцию по переводу!';
+

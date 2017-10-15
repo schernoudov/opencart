@@ -1,11 +1,12 @@
 <?php
 // Heading
-$_['heading_title']    = 'Error Log';
+$_['heading_title']    = 'Журнал ошибок';
 
 // Text
-$_['text_success']     = 'Success: You have successfully cleared your error log!';
-$_['text_list']        = 'Errors List';
+$_['text_success']     = 'Журнал ошибок очищен!';
+$_['text_list']        = 'Ошибки';
 
 // Error
-$_['error_warning']    = 'Warning: Your error log file %s is %s!';
-$_['error_permission'] = 'Warning: You do not have permission to clear error log!';
+$_['error_warning']    = 'Внимание: Ваш  файл ошибок %s имеет размер %s!';
+$_['error_permission'] = 'У Вас нет прав для управления данным модулем!';
+

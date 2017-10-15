@@ -1,15 +1,16 @@
 <?php
 // Heading
-$_['heading_title']    = 'Captchas';
+$_['heading_title']    = 'Защита от роботов';
 
 // Text
-$_['text_success']     = 'Success: You have modified captchas!';
-$_['text_list']        = 'Captcha List';
+$_['text_success']     = 'Настройки успешно изменены!';
+$_['text_list']        = 'Список модулей';
 
 // Column
-$_['column_name']      = 'Captcha Name';
-$_['column_status']    = 'Status';
-$_['column_action']    = 'Action';
+$_['column_name']      = 'Название';
+$_['column_status']    = 'Статус';
+$_['column_action']    = 'Действие';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify captchas!';
+$_['error_permission'] = 'У Вас нет прав для редактирования расширения Защита от роботов!';
+

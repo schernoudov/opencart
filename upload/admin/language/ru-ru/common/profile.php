@@ -1,33 +1,34 @@
 <?php
 // Heading
-$_['heading_title']         = 'Profile';
+$_['heading_title']         = 'Профиль';
 
 // Text
-$_['text_success']          = 'Success: You have modified your profile!';
-$_['text_edit']             = 'Edit Your Profile';
+$_['text_success']          = 'Настройки успешно изменены!';
+$_['text_edit']             = 'Редактирование';
 
 // Column
-$_['column_username']       = 'Username';
-$_['column_status']         = 'Status';
-$_['column_date_added']     = 'Date Added';
-$_['column_action']         = 'Action';
+$_['column_username']       = 'Имя';
+$_['column_status']         = 'Статус';
+$_['column_date_added']     = 'Дата добавления';
+$_['column_action']         = 'Действие';
 
 // Entry
-$_['entry_username']        = 'Username';
-$_['entry_password']        = 'Password';
-$_['entry_confirm']         = 'Confirm';
-$_['entry_firstname']       = 'First Name';
-$_['entry_lastname']        = 'Last Name';
+$_['entry_username']        = 'Логин';
+$_['entry_password']        = 'Пароль';
+$_['entry_confirm']         = 'Подтвердите пароль';
+$_['entry_firstname']       = 'Имя';
+$_['entry_lastname']        = 'Фамилия';
 $_['entry_email']           = 'E-Mail';
-$_['entry_image']           = 'Image';
+$_['entry_image']           = 'Изображение';
 
 // Error
-$_['error_permission']      = 'Warning: You do not have permission to modify your profile!';
-$_['error_username_exists'] = 'Warning: Username is already in use!';
-$_['error_username']        = 'Username must be between 3 and 20 characters!';
-$_['error_password']        = 'Password must be between 4 and 20 characters!';
-$_['error_confirm']         = 'Password and password confirmation do not match!';
-$_['error_firstname']       = 'First Name must be between 1 and 32 characters!';
-$_['error_lastname']        = 'Last Name must be between 1 and 32 characters!';
-$_['error_email']           = 'E-Mail Address does not appear to be valid!';
-$_['error_email_exists']    = 'Warning: E-Mail Address is already registered!';
+$_['error_permission']      = 'У Вас нет прав для изменения настроек профиля!';
+$_['error_exists_username'] = 'Внимание. Данное имя уже используется!';
+$_['error_username']        = 'Имя должен быть от 3 до 20 символов!';
+$_['error_password']        = 'Пароль должен быть от 4 до 20 символов!';
+$_['error_confirm']         = 'Пароль и подтверждение пароля не совпадают!';
+$_['error_firstname']       = 'Имя должно быть от 1 до 32 символов!';
+$_['error_lastname']        = 'Фамилия должна быть от 1 до 32 символов!';
+$_['error_email']           = 'E-Mail адрес введен неверно!';
+$_['error_exists_email']    = 'Данный E-Mail уже зарегистрирован!';
+

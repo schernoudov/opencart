@@ -1,21 +1,22 @@
 <?php
 // Heading
-$_['heading_title']     = 'Uploads';
+$_['heading_title']     = 'Внешние загрузки';
 
 // Text
-$_['text_success']      = 'Success: You have modified uploads!';
-$_['text_list']         = 'Upload List';
+$_['text_success']      = 'Выполнено!';
+$_['text_list']         = 'Внешние загрузки';
 
 // Column
-$_['column_name']       = 'Upload Name';
-$_['column_filename']   = 'Filename';
-$_['column_date_added'] = 'Date Added';
-$_['column_action']     = 'Action';
+$_['column_name']       = 'Название Файла';
+$_['column_filename']   = 'Имя Файла';
+$_['column_date_added'] = 'Дата добавления';
+$_['column_action']     = 'Действие';
 
 // Entry
-$_['entry_name']        = 'Upload Name';
-$_['entry_filename']    = 'Filename';
-$_['entry_date_added']  = 'Date Added';
+$_['entry_name']        = 'Название Файла';
+$_['entry_filename']    = 'Имя Файла';
+$_['entry_date_added']  = 'Дата добавления';
 
 // Error
-$_['error_permission']  = 'Warning: You do not have permission to modify uploads!';
+$_['error_permission']  = 'У Вас нет прав для управления данным модулем!';
+

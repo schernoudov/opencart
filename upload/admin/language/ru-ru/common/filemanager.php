@@ -1,23 +1,24 @@
 <?php
 // Heading
-$_['heading_title']    = 'Image Manager';
+$_['heading_title']    = 'Менеджер изображений';
 
 // Text
-$_['text_uploaded']    = 'Success: Your file has been uploaded!';
-$_['text_directory']   = 'Success: Directory created!';
-$_['text_delete']      = 'Success: Your file or directory has been deleted!';
+$_['text_uploaded']    = 'Файл загружен!';
+$_['text_directory']   = 'Готово: Директория создана!';
+$_['text_delete']      = 'Файл или директория удалена!';
 
 // Entry
-$_['entry_search']     = 'Search..';
-$_['entry_folder']     = 'Folder Name';
+$_['entry_search']     = 'Поиск..';
+$_['entry_folder']     = 'Новая папка';
 
 // Error
-$_['error_permission'] = 'Warning: Permission Denied!';
-$_['error_filename']   = 'Warning: Filename must be between 3 and 255!';
-$_['error_folder']     = 'Warning: Folder name must be between 3 and 255!';
-$_['error_exists']     = 'Warning: A file or directory with the same name already exists!';
-$_['error_directory']  = 'Warning: Directory does not exist!';
-$_['error_filesize']   = 'Warning: Incorrect file size!';
-$_['error_filetype']   = 'Warning: Incorrect file type!';
-$_['error_upload']     = 'Warning: File could not be uploaded for an unknown reason!';
-$_['error_delete']     = 'Warning: You can not delete this directory!';
+$_['error_permission'] = 'У вас нет прав доступа!';
+$_['error_filename']   = 'Имя файла должно быть от 3 до 255 символов!';
+$_['error_folder']     = 'Внимание: Имя директории должно быть от 3 до 255 символов!';
+$_['error_exists']     = 'Файл или директория с таким именем уже существует!';
+$_['error_directory']  = 'Выберите директорию!';
+$_['error_filesize']   = 'Внимание: Некорректный размер файла!';
+$_['error_filetype']   = 'Внимание: Некорректный тип файла!';
+$_['error_upload']     = 'Внимание: Файл не может быть загружен по неизвестной причине!';
+$_['error_delete']     = 'Невозможно удалить директорию!';
+

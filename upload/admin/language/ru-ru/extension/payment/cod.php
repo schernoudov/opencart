@@ -1,21 +1,22 @@
 <?php
 // Heading
-$_['heading_title']      = 'Cash On Delivery';
+$_['heading_title']      = 'Оплата при доставке';
 
 // Text
-$_['text_extension']     = 'Extensions';
-$_['text_success']       = 'Success: You have modified Cash On Delivery payment module!';
-$_['text_edit']          = 'Edit Cash On Delivery';
+$_['text_extension']     = 'Расширения';
+$_['text_success']       = 'Настройки успешно изменены!';
+$_['text_edit']          = 'Редактирование';
 
 // Entry
-$_['entry_total']        = 'Total';
-$_['entry_order_status'] = 'Order Status';
-$_['entry_geo_zone']     = 'Geo Zone';
-$_['entry_status']       = 'Status';
-$_['entry_sort_order']   = 'Sort Order';
+$_['entry_total']        = 'Нижняя граница';
+$_['entry_order_status'] = 'Статус заказа после оплаты';
+$_['entry_geo_zone']     = 'Географическая зона';
+$_['entry_status']       = 'Статус';
+$_['entry_sort_order']   = 'Порядок сортировки';
 
 // Help
-$_['help_total']         = 'The checkout total the order must reach before this payment method becomes active.';
+$_['help_total']         = 'Минимальная сумма заказа. Ниже данной суммы, способ оплаты будет недоступен.';
 
 // Error
-$_['error_permission']   = 'Warning: You do not have permission to modify payment Cash On Delivery!';
+$_['error_permission']   = 'У Вас нет прав для управления данным модулем!';
+

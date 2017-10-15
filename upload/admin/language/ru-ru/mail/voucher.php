@@ -1,10 +1,10 @@
 <?php
 // Text
-$_['text_success']  = 'Success: You have modified vouchers!';
-$_['text_subject']  = 'You have been sent a gift certificate from %s';
-$_['text_greeting'] = 'Congratulations, You have received a Gift Certificate worth %s';
-$_['text_from']     = 'This Gift Certificate has been sent to you by %s';
-$_['text_message']  = 'With a message saying';
-$_['text_redeem']   = 'To redeem this Gift Certificate, write down the redemption code which is <b>%s</b> then click on the link below and purchase the product you wish to use this gift certificate on. You can enter the gift certificate code on the shopping cart page before you click checkout.';
-$_['text_footer']   = 'Please reply to this email if you have any questions.';
-$_['text_sent']     = 'Success: Gift Voucher e-mail has been sent!';
+$_['text_success']  = 'Настройки успешно изменены!';
+$_['text_subject']  = 'Вам отправили Подарочный Сертификат с %s';
+$_['text_greeting'] = 'Поздравляем, Вы получили Подарочный Сертификат на %s';
+$_['text_from']     = 'Вы получили Подарочный Сертификат от %s';
+$_['text_message']  = 'С сообщением, в котором говорится';
+$_['text_redeem']   = 'Чтобы воспользоваться этим Подарочным Сертификатом сохраните код <b>%s</b>, затем перейдите в магазин по ссылке ниже и закажите товары, которые Вам понравятся. Вы можете ввести код подарочного сертификата на странице просмотра корзины перед тем как начнете оформление заказа.';
+$_['text_footer']   = 'Если у Вас есть какие-либо вопросы, ответьте на это сообщение.';
+

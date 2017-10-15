@@ -1,19 +1,20 @@
 <?php
 // Heading
-$_['heading_title']     = 'Modifications';
+$_['heading_title']     = 'Модификаторы';
 
 // Text
-$_['text_success']      = 'Success: You have modified modifications!';
-$_['text_refresh']      = 'Whenever you enable / disable or delete a modification you need to click the refresh button to rebuild your modification cache!';
-$_['text_list']         = 'Modification List';
+$_['text_success']      = 'Действие успешно выполнено!';
+$_['text_refresh']      = 'Каждый раз, когда Вы включили / отключили или удалили модификатор, необходимо нажать кнопку обновить, чтобы обновить кэш модификаторов!';
+$_['text_list']         = 'Список модификаторов';
 
 // Column
-$_['column_name']       = 'Modification Name';
-$_['column_author']     = 'Author';
-$_['column_version']    = 'Version';
-$_['column_status']     = 'Status';
-$_['column_date_added'] = 'Date Added';
-$_['column_action']     = 'Action';
+$_['column_name']       = 'Название';
+$_['column_author']     = 'Автор';
+$_['column_version']    = 'Версия';
+$_['column_status']     = 'Состояние';
+$_['column_date_added'] = 'Дата';
+$_['column_action']     = 'Действие';
 
 // Error
-$_['error_permission']  = 'Warning: You do not have permission to modify modifications!';
+$_['error_permission']  = 'Внимание: У Вас нет прав для управления модификаторами!';
+

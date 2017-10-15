@@ -1,17 +1,18 @@
 <?php
 // Heading
-$_['heading_title']    = 'Total Sales';
+$_['heading_title']    = 'Продаж';
 
 // Text
-$_['text_extension']   = 'Extensions';
-$_['text_success']     = 'Success: You have modified dashboard sales!';
-$_['text_edit']        = 'Edit Dashboard Sales';
-$_['text_view']        = 'View more...';
+$_['text_extension']   = 'Расширения';
+$_['text_success']     = 'Настройки успешно изменены!';
+$_['text_edit']        = 'Редактирование';
+$_['text_view']        = 'подробнее...';
 
 // Entry
-$_['entry_status']     = 'Status';
-$_['entry_sort_order'] = 'Sort Order';
-$_['entry_width']      = 'Width';
+$_['entry_status']     = 'Статус';
+$_['entry_sort_order'] = 'Порядок сортировки';
+$_['entry_width']      = 'Ширина';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify dashboard sales!';
+$_['error_permission'] = 'У Вас нет прав для управления данным расширением!';
+

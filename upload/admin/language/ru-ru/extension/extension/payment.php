@@ -1,18 +1,19 @@
 <?php
 // Heading
-$_['heading_title']     = 'Payments';
+$_['heading_title']     = 'Оплата';
 
 // Text
-$_['text_success']      = 'Success: You have modified payments!';
-$_['text_list']         = 'Payment List';
-$_['text_recommended']  = 'Payments - Recommended Solutions';
+$_['text_success']      = 'Настройки успешно изменены!';
+$_['text_list']         = 'Список способов оплаты';
+$_['text_recommended']  = '';
 
 
 // Column
-$_['column_name']       = 'Payment Method';
-$_['column_status']     = 'Status';
-$_['column_sort_order'] = 'Sort Order';
-$_['column_action']     = 'Action';
+$_['column_name']       = 'Способ оплаты';
+$_['column_status']     = 'Статус';
+$_['column_sort_order'] = 'Порядок сортировки';
+$_['column_action']     = 'Действие';
 
 // Error
-$_['error_permission']  = 'Warning: You do not have permission to modify payments!';
+$_['error_permission']  = 'У Вас нет прав для редактирования расширения Оплата!';
+

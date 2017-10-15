@@ -1,20 +1,21 @@
 <?php
 // Heading
-$_['heading_title']    = 'PayPal Express Checkout Button';
+$_['heading_title']    = 'Кнопка PayPal экспресс платежа';
 
 // Text
-$_['text_extension']   = 'Extensions';
-$_['text_success']     = 'Success: You have modified PayPal Express Checkout Button module!';
-$_['text_edit']        = 'Edit PayPal Express Checkout Button Module';
-$_['text_info']        = 'The button will <u>not</u> appear under certain conditions:';
-$_['text_info_li1']    = 'The cart is empty and no vouchers have been applied';
-$_['text_info_li2']    = 'The cart has downloads or recurring payments and the user is not logged in';
-$_['text_info_li3']    = 'Out of stock item checkout is disabled and the cart contains an out of stock item';
-$_['text_layouts']     = 'After enabling the module, use the layout manager to add the button to areas on the store.';
-$_['text_layout_link'] = 'Click here to access layouts page';
+$_['text_extension']   = 'Расширения';
+$_['text_success']     = 'Настройки успешно изменены!';
+$_['text_edit']        = 'Настройки модуля';
+$_['text_info']        = 'Кнопка не появляется при определенных условиях:';
+$_['text_info_li1']    = 'Корзина пуста и никакие купоны не были применены';
+$_['text_info_li2']    = 'В корзине есть скачиваемые товары или регулярные платежи, и пользователь не вошел в систему';
+$_['text_info_li3']    = 'Проверка на наличие товара отключена';
+$_['text_layouts']     = 'После включения модуля, расположите его на нужном макете';
+$_['text_layout_link'] = 'Нажмите сюда чтобы перейти в макеты';
 
 // Entry
-$_['entry_status']     = 'Status';
+$_['entry_status']     = 'Статус';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify PayPal Express Checkout Button module!';
+$_['error_permission'] = 'У Вас нет прав для управления данным модулем!';
+

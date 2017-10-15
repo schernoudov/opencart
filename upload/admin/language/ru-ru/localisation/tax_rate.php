@@ -1,33 +1,34 @@
 <?php
 // Heading
-$_['heading_title']        = 'Tax Rates';
+$_['heading_title']        = 'Налоговые ставки';
 
 // Text
-$_['text_success']         = 'Success: You have modified tax rates!';
-$_['text_list']            = 'Tax Rate List';
-$_['text_add']             = 'Add Tax Rate';
-$_['text_edit']            = 'Edit Tax Rate';
-$_['text_percent']         = 'Percentage';
-$_['text_amount']          = 'Fixed Amount';
+$_['text_success']         = 'Настройки успешно изменены!';
+$_['text_list']            = 'Список ставок';
+$_['text_add']             = 'Добавить';
+$_['text_edit']            = 'Редактирование';
+$_['text_percent']         = 'Процент';
+$_['text_amount']          = 'Фиксированная величина';
 
 // Column
-$_['column_name']          = 'Tax Name';
-$_['column_rate']          = 'Tax Rate';
-$_['column_type']          = 'Type';
-$_['column_geo_zone']      = 'Geo Zone';
-$_['column_date_added']    = 'Date Added';
-$_['column_date_modified'] = 'Date Modified';
-$_['column_action']        = 'Action';
+$_['column_name']          = 'Название налога';
+$_['column_rate']          = 'Ставка';
+$_['column_type']          = 'Тип';
+$_['column_geo_zone']      = 'Географическая зона';
+$_['column_date_added']    = 'Добавлено';
+$_['column_date_modified'] = 'Изменено';
+$_['column_action']        = 'Действие';
 
 // Entry
-$_['entry_name']           = 'Tax Name';
-$_['entry_rate']           = 'Tax Rate';
-$_['entry_type']           = 'Type';
-$_['entry_customer_group'] = 'Customer Group';
-$_['entry_geo_zone']       = 'Geo Zone';
+$_['entry_name']           = 'Название';
+$_['entry_rate']           = 'Ставка';
+$_['entry_type']           = 'Тип';
+$_['entry_customer_group'] = 'Группа клиентов';
+$_['entry_geo_zone']       = 'Географическая зона';
 
 // Error
-$_['error_permission']     = 'Warning: You do not have permission to modify tax rates!';
-$_['error_tax_rule']       = 'Warning: This tax rate cannot be deleted as it is currently assigned to %s tax classes!';
-$_['error_name']           = 'Tax Name must be between 3 and 32 characters!';
-$_['error_rate']           = 'Tax Rate required!';
+$_['error_permission']     = 'У Вас нет прав для изменения налоговых ставок!';
+$_['error_tax_rule']       = 'Налоговая ставка не может быть удалена, так как назначена %s налоговым классам!';
+$_['error_name']           = 'Название должно быть от 3 до 32 символов!';
+$_['error_rate']           = 'Требуется ввести ставку!';
+
